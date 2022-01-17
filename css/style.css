@@ -343,15 +343,15 @@ strong {
 }
 
 /*---------------------------------------
-  HERO              
+  Home            
 -----------------------------------------*/
-.hero {
+.home {
   position: relative;
   overflow: hidden;
 }
 
 @media screen and (min-width: 992px) {
-  .hero {
+  .home {
     height: 100vh;
   }
 
@@ -368,7 +368,7 @@ strong {
   }
 }
 
-.heroText {
+.homeText {
   position: absolute;
   z-index: 9;
   top: 50%;
@@ -397,6 +397,7 @@ strong {
   right: 0;
   width: 65%;
   padding: 22px 32px 32px 32px;
+  opacity: 0.8;
 }
 
 .carousel-control-next, 
@@ -435,7 +436,7 @@ strong {
   NEWS & EVENTS               
 -----------------------------------------*/
 
-.news,
+.experience,
 .related-news {
   background: var(--section-bg-color);
 }
@@ -694,7 +695,7 @@ strong {
     min-height: inherit;
   }
 
-  .news .col-12 .news-two-column:first-child {
+  .experience .col-12 .news-two-column:first-child {
     margin-bottom: 38px;
   }
 }
@@ -710,7 +711,7 @@ strong {
     font-size: 32px;
   }
 
-  .heroText p {
+  .homeText p {
     font-size: 14px;
   }
 }
