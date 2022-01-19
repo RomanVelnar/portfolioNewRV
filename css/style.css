@@ -1,17 +1,10 @@
-/*
-
-TemplateMo 567 Nomad Force
-
-https://templatemo.com/tm-567-nomad-force
-
-*/
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
   --white-color:                  #FFFFFF;
-  --primary-color:                #ffc107;
+  --primary-color:                #0751ff;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
   --grey-color:                   #fcfeff;
@@ -100,7 +93,8 @@ h6 {
   font-size: var(--h6-font-size);
 }
 
-p {
+p,
+li {
   color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
@@ -378,6 +372,7 @@ strong {
   text-align: center;
 }
 
+
 /*---------------------------------------
   ABOUT & TEAM MEMBERS               
 -----------------------------------------*/
@@ -510,6 +505,54 @@ strong {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+}
+
+/* **********************************Portfolio Details************************************ */
+
+.portfolioHome {
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 992px) {
+  .portfolioHome {
+    height: 100vh;
+  }
+}
+
+.portfolioHeader {
+  text-align: center;
+  margin-top: 2.5em;
+}
+
+.myCarouselPort {
+  bottom: 5em;
+}
+
+.carousel .carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+.carouselPortButton {
+  bottom: 85%;
+}
+
+.social-share-icon {
+  font-size: 45px;
+  margin-right: 20px;
+}
+
+.section-padding-portfolio {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 /*---------------------------------------
