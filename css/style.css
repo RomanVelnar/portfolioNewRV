@@ -1,17 +1,10 @@
-/*
-
-TemplateMo 567 Nomad Force
-
-https://templatemo.com/tm-567-nomad-force
-
-*/
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
   --white-color:                  #FFFFFF;
-  --primary-color:                #ffc107;
+  --primary-color:                #0751ff;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
   --grey-color:                   #fcfeff;
@@ -100,7 +93,8 @@ h6 {
   font-size: var(--h6-font-size);
 }
 
-p {
+p,
+li {
   color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
@@ -378,6 +372,7 @@ strong {
   text-align: center;
 }
 
+
 /*---------------------------------------
   ABOUT & TEAM MEMBERS               
 -----------------------------------------*/
@@ -423,13 +418,141 @@ strong {
 /*---------------------------------------
   PORTFOLIO               
 -----------------------------------------*/
-.portfolio-thumb {
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-container {
+  margin-top: 5em;
+}
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 35px auto;
+  list-style: none;
+  text-align: center;
+  background: #fff;
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #272829;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+  color: #149ddd;
+}
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+.portfolio .portfolio-wrap .portfolio-links {
+  opacity: 1;
+  left: 0;
+  right: 0;
+  bottom: -60px;
+  z-index: 3;
+  position: absolute;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  justify-content: center;
+}
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  background: rgba(20, 157, 221, 0.75);
+  transition: 0.3s;
+  width: 50%;
+}
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  background: rgba(20, 157, 221, 0.95);
+}
+.portfolio .portfolio-wrap .portfolio-links a + a {
+  border-left: 1px solid #37b3ed;
+}
+.portfolio .portfolio-wrap:hover::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+}
+.portfolio .portfolio-wrap:hover .portfolio-links {
+  opacity: 1;
+  bottom: 0;
+}
+
+/* **********************************Portfolio Details************************************ */
+
+.portfolioHome {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-info {
-  margin: 20px;
+@media screen and (min-width: 992px) {
+  .portfolioHome {
+    height: 100vh;
+  }
+}
+
+.portfolioHeader {
+  text-align: center;
+  margin-top: 2.5em;
+}
+
+.myCarouselPort {
+  bottom: 5em;
+}
+
+.carousel .carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+.carouselPortButton {
+  bottom: 85%;
+}
+
+.social-share-icon {
+  font-size: 45px;
+  margin-right: 20px;
+}
+
+.section-padding-portfolio {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 /*---------------------------------------
@@ -592,25 +715,11 @@ strong {
 /*---------------------------------------
   SITE FOOTER               
 -----------------------------------------*/
-.site-footer {
-  background: var(--dark-color);
-  padding-top: 4.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.site-footer .custom-link {
-  color: rgba(255, 255, 255, 0.65);
-  font-size: var(--p-font-size);
-}
-
-.site-footer .custom-link:hover,
-.site-footer .social-icon-link:hover {
-  color: var(--white-color);
-}
-
-.copyright-text {
-  color: rgba(255, 255, 255, 0.45);
-  font-size: var(--copyright-text-font-size);
+.footer {
+  text-align: center;
+  margin: 2em;
+  background-color: #000;
+  padding: 2em;
 }
 
 /*---------------------------------------
