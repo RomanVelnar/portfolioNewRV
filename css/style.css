@@ -99,6 +99,7 @@ li {
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
   letter-spacing: 0.5px;
+  list-style-type: none;
 }
 
 .text-secondary-white-color {
@@ -415,6 +416,14 @@ strong {
   height: 3rem;
 }
 
+.aboutIcons {
+  display: flex;
+}
+
+.aboutIcons li {
+  margin: 12px;
+}
+
 /*---------------------------------------
   PORTFOLIO               
 -----------------------------------------*/
@@ -667,8 +676,8 @@ strong {
   SECTION               
 -----------------------------------------*/
 .section-padding {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 /*---------------------------------------
