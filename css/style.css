@@ -377,6 +377,8 @@ strong {
 /* *************************************About****************************************** */
 
 
+
+
 .about-image,
 .team-image {
   width: 100%;
@@ -562,6 +564,12 @@ strong {
 .section-padding-portfolio {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.img-fluid-portf {
+  border: solid 3px black;
+  box-shadow: 10px 20px black;
+  border-radius: 10px 10px 0px 0px;
 }
 
 /* ***************************************Experience*************************************************** */
@@ -799,6 +807,8 @@ strong {
   .section-padding {
     padding-top: 6rem;
     padding-bottom: 6rem;
+    text-align: center;
+
   }
 
   .team-thumb {
