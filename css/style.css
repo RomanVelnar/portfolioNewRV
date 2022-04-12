@@ -542,14 +542,11 @@ strong {
 
 .carousel .carousel-item {
   height: 100vh;
-}
+} */
 
-.carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    min-height: 500px;
+/* .carousel-item {
+   height: 100%;
+   margin-top: 80px;
 } */
 
 .carouselPortButton {
@@ -570,6 +567,13 @@ strong {
   border: solid 3px black;
   box-shadow: 10px 20px black;
   border-radius: 10px 10px 0px 0px;
+}
+
+.portfolio-hero-img {
+  height: auto;
+  width: 100vw;
+  padding-bottom: 40px;
+  object-fit: cover;
 }
 
 /* ***************************************Experience*************************************************** */
