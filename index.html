@@ -106,16 +106,16 @@
                         <div class="col-lg-6 col-12 mt-lg-3 mb-lg-5">
                             <p data-aos="fade-up" data-aos-delay="400">Here are some that I actively use:</p>
                             <div data-aos="fade-up" data-aos-delay="500" class="aboutIcons">
-                                <li><img src="images/icons/html5.svg" title="HTML" width="70px"></li> 
-                                <li><img src="images/icons/css.svg" title="css" width="70px"></li>
-                                <li><img src="images/icons/javascript.svg" title="JavaScript" width="70px"></li>
-                                <li><img src="images/icons/react.svg" title="React" width="70px"></li>
+                                <li><img src="images/icons/html5.svg" title="HTML" width="60px">HTML</li> 
+                                <li><img src="images/icons/css.svg" title="css" width="60px"></li>
+                                <li><img src="images/icons/javascript.svg" title="JavaScript" width="60px"></li>
+                                <li><img src="images/icons/react.svg" title="React" width="60px"></li>
                             </div>
                             <div data-aos="fade-up" data-aos-delay="500" class="aboutIcons">
-                                <li><img src="images/icons/jquery.svg" title="jQuery" width="70px"></li>
+                                <li><img src="images/icons/jquery.svg" title="jQuery" width="60px"></li>
                                 <li><img src="images/icons/nodejs.svg" alt="" title="Node.js" width="100px"></li>
-                                <li><img src="images/icons/tailwind.svg" alt="" title="Tailwind" width="70px"></li>
-                                <li><img src="images/icons/bootstrap.svg" alt="" title="Bootstrap" width="70px"></li>
+                                <li><img src="images/icons/tailwind.svg" alt="" title="Tailwind" width="60px"></li>
+                                <li><img src="images/icons/bootstrap.svg" alt="" title="Bootstrap" width="60px"></li>
                             </div>
                             <p class="me-4">Following I worked with, however I didnt have time to go deeper.</p>
                             <div data-aos="fade-up" data-aos-delay="500" class="aboutIcons">
@@ -313,25 +313,22 @@
 
                             <h2 class="mb-4 text-center" data-aos="fade-up">You can send me a message</h2>
 
-                            <form action="#" method="post" class="contact-form" role="form" data-aos="fade-up" data-netlify="true">
+                            <form name="contact" action="#formsuccess.html" method="POST" class="contact-form" role="form" data-aos="fade-up" data-netlify="true">
 
                                 <div class="row">
                                     
                                     <div class="col-lg-6 col-6">
-                                        <label for="name" class="form-label">Name <sup class="text-danger">*</sup></label>
-
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required>
+                                        <label for="name" class="form-label">Name <sup class="text-danger">*</sup>
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required></label>
                                     </div>
 
                                     <div class="col-lg-6 col-6">
-                                        <label for="email" class="form-label">Email <sup class="text-danger">*</sup></label>
-
-                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
+                                        <label for="email" class="form-label">Email <sup class="text-danger">*</sup>
+                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required></label>
                                     </div>
 
                                     <div class="col-12 my-4">
                                         <label for="message" class="form-label">What can I do for you?</label>
-
                                         <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message to me" required></textarea>
                                         
                                     </div>
