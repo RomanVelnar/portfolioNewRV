@@ -80,7 +80,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#portfolio">Portfolio</a>
                             </li>
-
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Experience</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
@@ -106,7 +108,7 @@
                         <div class="col-lg-6 col-12 mt-lg-3 mb-lg-5">
                             <p data-aos="fade-up" data-aos-delay="400">Here are some that I actively use:</p>
                             <div data-aos="fade-up" data-aos-delay="500" class="aboutIcons">
-                                <li><img src="images/icons/html5.svg" title="HTML" width="60px">HTML</li> 
+                                <li><img src="images/icons/html5.svg" title="HTML" width="60px"></li> 
                                 <li><img src="images/icons/css.svg" title="css" width="60px"></li>
                                 <li><img src="images/icons/javascript.svg" title="JavaScript" width="60px"></li>
                                 <li><img src="images/icons/react.svg" title="React" width="60px"></li>
@@ -226,9 +228,9 @@
 
             <section class="portfolio section-bg section-padding" id="portfolio">
                 <div class="container">
-                    <div class="section-title">
+                    <div>
                         <div class="col-12">
-                            <h2 class="mb-3" data-aos="fade-up">Portfolio</h2>
+                            <h2 class="mb-3 section-title" data-aos="fade-up">Portfolio</h2>
                         </div>
                       <p>I have worked on different projects that involved HTML, CSS (Tailwind, Bootstrap) and JavaScript(React, jQuery). Mostly developing websites for other companies and my personal projects, such as games and tools that can help in everyday.  </p>
                     </div>
@@ -299,7 +301,40 @@
 
 <!-- ****************************************Experience********************************************* -->
 
-            
+            <section class="news-detail section-padding" id="experience">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ml-auto">
+                            <h2 class="mb-3 section-title" data-aos="fade-up">My experience in Technology Sector</h2>
+
+                            <p class="me-4" data-aos="fade-up">In 2015 I moved to the UK, Bournemouth where I started working as a <b>Senior Technical Consultant</b> at WDS(Wireless Data Company), which at that time was owned by Xerox. The company had a contract with Google to offer support for Android phone as well as Google services, such as Wallet, PlayStore, Youtube and Nexus devices. The role was to help clients troubleshooting either devices or Google services. Few month after the start I was promoted to "Galactic Agent" a Tier 2/SME that was helping other agents with issues they couldn't resolve themselves.</p>
+
+                            <p data-aos="fade-up">Next role was a Think Pipeline where I started in 2017 as a <b>Business Development Executive.</b> Think Pipeline is an Enterprise-Level Lead & Demand Generation Company that specialises in IT sector. The company is partnered with several large Tech companies such as Dell, IBM, HP, Lenovo, Atos, AMD, Barracuda, RedCentric, LogRhythm, Veeam as others. To act as extended arm of their sales team and look for sales opportunities. The role involved having meaninfull conversations with IT Executives and Directors about their current HW and SW environment and advise them on improvements and inovations. </p>
+
+                            <div class="clearfix my-4 mt-lg-0 mt-5">
+                                <div class="col-md-6 float-md-end mb-3 ms-md-3" data-aos="fade-up">
+                                    <figure class="figure">
+                                        <img src="images/experience/BUresultsummary.PNG" class="img-fluid news-image" alt="">
+
+                                        <figcaption class="figure-caption text-end">Bournemouth University Results Summary</figcaption>
+                                    </figure>
+                                </div>
+
+                                <p data-aos="fade-up">
+                                    In 2020 I was promote to <b>Business Development Manager</b> where I helped the company communicating with client and teach the executives on techinical expects of IT environments. 
+                                </p>
+                                <p data-aos="fade-up">
+                                    During the time at the Think Pipeline I continued my education and completed the Masters Degree in Information Technology at the Bournemouth University, where I graduated with Merit. 
+                                </p>
+                                <p data-aos="fade-up">
+                                    Now, I am still working part-time at Think Pipeline as a contractor helping on campaigns and educating new team members.
+                                </p>
+                                <p class="me-4" data-aos="fade-up">From start of 2021 I started as a Freelance Developer, supporting businesses with their needs, this involves developing websites, consulting on online presence, social media and setting online strategy.</p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
 
@@ -315,8 +350,7 @@
 
                             <form name="contact" action="#formsuccess.html" method="POST" class="contact-form" role="form" data-aos="fade-up" data-netlify="true">
 
-                                <div class="row">
-                                    
+                                <div class="row">  
                                     <div class="col-lg-6 col-6">
                                         <label for="name" class="form-label">Name <sup class="text-danger">*</sup>
                                         <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required></label>
@@ -330,7 +364,6 @@
                                     <div class="col-12 my-4">
                                         <label for="message" class="form-label">What can I do for you?</label>
                                         <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message to me" required></textarea>
-                                        
                                     </div>
                                 </div>
 
