@@ -730,6 +730,26 @@ strong {
   .experience .col-12 .news-two-column:first-child {
     margin-bottom: 38px;
   }
+
+  .home {
+    height: 90vh;
+    background-image: url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .videoWrapper {
+    display: none;
+  }
+
+  .homeText h1{
+    font-size: 28px;
+  }
+
+  .homeText p{
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 767px) {
