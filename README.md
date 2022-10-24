@@ -10,6 +10,12 @@ This website is meant to showcase the experience, education and jobs od Roman Ve
 Each section follows a certain pattern.
 
 ## Future development
+- Add Spike Global as the dev experience
+- Change the MiraMara description and add pictures
+- Change the TP description
+- Add different projects, maybe the WeatherApp
+
+
 - Its important to keep the page up to date
 - a minigame could be added to the page
 - the bottom portion of the About me section could be removed
